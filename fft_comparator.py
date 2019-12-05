@@ -66,8 +66,6 @@ class FFTComparator:
             self.__statistics[key]['spectral_density'] = []
             self.__statistics[key]['backward'] = []
 
-
-
     def __log(self, data):
         logging.debug(data)
 
