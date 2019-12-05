@@ -16,7 +16,7 @@ mpl_logger.setLevel(logging.WARNING)
 class FFTComparator:
     def __init__(self, **kwargs):
         self.__n_max = kwargs.get('n_max', 1024)
-        self.__n_repeats = kwargs.get('n_repeats', (50000, 200))
+        self.__n_repeats = kwargs.get('n_repeats', (50000, 500))
 
         self.__verbose = kwargs.get('verbose', True)
         logging.basicConfig(format='%(message)s', level=logging.DEBUG)
